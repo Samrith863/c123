@@ -1,0 +1,39 @@
+body{
+    background-position:center;
+    background-size:cover;
+}
+.heading{
+    margin:0px;
+    animation-name:example;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    line-height:2;
+}
+@keyframes example{
+    50%{font-size:20px;}
+}
+#note{
+    font-size:15px;
+    color:yellow;
+}
+.copy_right_footer{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    background-color:yellow;
+    color:cornflowerblue;
+    text-align:center;
+    line-height:2;
+    font-weight:bold;
+}
+canvas{
+    border:5px solid red;
+    border: radius 20px;
+    animation-name:drawing;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes drawing{
+    from{box-shadow:5px 5px 30px yellow;}
+    to{box-shadow:5px 5px 30px pink;}
+}
